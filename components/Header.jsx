@@ -31,6 +31,7 @@ const Header = () => {
 				>
 					<input
 						ref={searchInput}
+						defaultValue={router.query.term}
 						className="flex-grow w-full focus:outline-none"
 						type="text"
 					/>
